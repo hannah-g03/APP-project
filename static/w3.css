@@ -1,0 +1,30 @@
+body{
+  font-family: noto;
+  background-color: whitesmoke
+}
+
+#heading1{
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+#listEntries{
+  list-style-type: none;
+}
+
+.toDoList{
+  padding: 40px 40px 40px 40px;
+  box-shadow: 3px 3px 5px;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+.crossedOff{
+  text-decoration: line-through;
+}
+
+.selectedItem{
+  text-align: center;
+}
+
+

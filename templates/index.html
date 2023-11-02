@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>APP Assignment</title>
+  <link rel="stylesheet" href="static/w3.css">
+</head>
+
+<body>
+    <h1 id="heading1">My To-Do list:</h1>
+  <div class="toDoList">
+      <form id="addItem">
+        <input type="text" id="newItem" placeholder="add item here..."> 
+        <select id="prioritySelect">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+        <br>
+        <br>
+        <input type="text" id="itemDescTxt" placeholder="item description...">
+        <button type="button" id="addBtn">Add</button>
+      </form>
+    <div class="list">
+      <ul id="listEntries">
+      </ul>  
+  </div>
+    <form>
+      <button type="button" id="uploadListBtn">Upload</button>
+    </form>
+	</div>
+  <br>
+  <div class="selectedItem">
+    <div><label for="itemEntry">Task:</label>
+      <input type="text" id="itemEntry"></div>
+    <br>
+    <div><label for="priorityEntry">Priority:</label>
+      <input type="text" id="priorityEntry"></div>
+    <br>
+    <div><label for="descEntry">Description:</label>
+      <input type="text" id="descEntry"></div>
+  </div>
+  
+
+<script src="static/scripts/app.js"></script>
+</body>
+</html>
